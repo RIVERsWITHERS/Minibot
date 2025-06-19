@@ -2,6 +2,8 @@
 // Open Source Software; you can modify and/or share it under the terms of
 // the WPILib BSD license file in the root directory of this project.
 
+
+
 package frc.robot;
 
 import frc.robot.commands.TeleopDrive;
@@ -25,6 +27,7 @@ public class RobotContainer {
 public static final Drive drive = new Drive(); 
 public static final CommandXboxController controller = new CommandXboxController(0);
 //private final SendableChooser<Command> autoChooser = AutoBuilder.buildAutoChooser("Example");
+private final ArduinoSubsystem arduino = new ArduinoSubsystem();
 
   
  
